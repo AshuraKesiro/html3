@@ -1,0 +1,164 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-image: "../../../../Downloads/R (5).jpg" ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.hero .btn:hover {
+    background-color: #ff4b4b;
+}
+
+.about, .phones, .info, .socials {
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2, .phones h2, .info h2, .socials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #ff6b6b;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.phone-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.phone {
+    background-color: #333;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.phone:hover {
+    transform: scale(1.05);
+}
+
+.phone img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.phone h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #ff6b6b;
+}
+
+.phone p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.buy-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #2ecc71;
+}
+
+.info ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.info ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.instagram:hover {
+    background-color: #e1306c;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
